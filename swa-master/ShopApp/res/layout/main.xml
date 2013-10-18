@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:baselineAligned="false"
+	tools:context=".ui.main.Main" >
+
+	<EditText
+	    android:id="@+id/kunde_id"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/s_kunde_id_hint"
+	    android:inputType="number"
+	    tools:ignore="LabelFor" >
+
+		<requestFocus />
+		
+	</EditText>
+	
+	<Button
+		android:id="@+id/btn_suchen"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:text="@string/s_btn_suchen" />
+	
+	<fragment
+		android:id="@+id/nav"
+    	android:name="de.shop.ui.main.MainNav"
+    	android:layout_weight="1"
+    	android:layout_width="0dp"
+    	android:layout_height="match_parent" />
+	
+	<FrameLayout
+    	android:id="@+id/details"
+    	android:layout_weight="4"
+    	android:layout_width="0dp"
+    	android:layout_height="match_parent" />
+	
+	<TableRow >
+	    
+	    <Button
+			android:id="@+id/btn_kunden"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/ic_kunden"
+			android:text="@string/s_nav_kunden"
+			android:minWidth="120dp"
+			android:minHeight="62dp" />
+	    
+	    <Button
+			android:id="@+id/btn_bestellungen"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/ic_bestellungen"
+			android:text="@string/s_nav_bestellungen"
+			android:minWidth="120dp"
+			android:minHeight="62dp" />
+	    
+	</TableRow>
+
+</LinearLayout>

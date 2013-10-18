@@ -1,0 +1,22 @@
+<resources>
+	
+	<string name="a_artikel_not_found">No item found with no. %s.</string>
+	<string name="a_id_fehlt">The item no. is missing.</string>
+	<string name="a_artikel_id_auswahl_hint">Choose a Number</string>
+	<string name="a_artikel_id_hint">Enter item no.</string>
+	<string name="a_artikel_id">Item no.</string>
+	<string name="a_bezeichnung">Label</string>
+	<string name="a_stammdaten">Master data</string>
+	<string name="a_preis">Price</string>
+	<string name="a_verfuegbar">Avaibility</string>
+	<string name="a_bezeichnung_auswahl_hint">Choose a label</string>
+	<string name="a_bezeichnung_hint">Enter label</string>
+	<string name="a_bezeichnung_fehlt">Label is missing.</string>
+	<string name="a_artikel_liste_title">Items</string>
+	<string name="a_hint_artikelname">Item-name</string>
+	
+	
+	
+	
+	
+</resources>

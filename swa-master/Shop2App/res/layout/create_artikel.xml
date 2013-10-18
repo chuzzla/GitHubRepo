@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".ui.main.Main" >
+	
+	<TableLayout
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+		
+		<TableRow>
+	
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/a_bezeichnung" />
+			
+			<EditText
+			    android:id="@+id/bezeichnung_new"
+			    style="@style/RechteSpalteText"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:inputType="text"
+			    android:paddingLeft="5dp"
+			    tools:ignore="LabelFor" />
+	
+		</TableRow>
+		
+		<TableRow>
+		
+	        <TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/a_preis" />
+	        
+	        <EditText
+	            android:id="@+id/preis_new"
+	            style="@style/RechteSpalteText"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="text"
+	            tools:ignore="LabelFor" />
+	
+	    </TableRow>
+
+	    <TableRow>
+	    
+	    	<TextView
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/a_verfuegbar" />
+	    	
+	    	<ToggleButton
+			    android:id="@+id/verfuegbar_tgl"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textOn="@string/s_ja"
+			    android:textOff="@string/s_nein" />
+	    	
+	    </TableRow> 
+	    
+	    <Button
+		android:id="@+id/btn_create_artikel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+		android:text="@string/s_artikel_create" />	
+	
+	</TableLayout>
+	
+</ScrollView>

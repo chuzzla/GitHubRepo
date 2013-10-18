@@ -1,0 +1,18 @@
+<resources>
+	
+	<string name="a_artikel_not_found">Kein Artikel gefunden mit der Nr. %s.</string>
+	<string name="a_id_fehlt">Die Artikelnummer fehlt.</string>
+	<string name="a_artikel_id_auswahl_hint">Wählen sie eine Nummer aus</string>
+	<string name="a_artikel_id_hint">Artikelnummer eingeben</string>
+	<string name="a_artikel_id">Artikelnummer</string>
+	<string name="a_bezeichnung">Bezeichnung</string>
+	<string name="a_stammdaten">Stammdaten</string>
+	<string name="a_preis">Preis</string>
+	<string name="a_verfuegbar">Verfügbar</string>
+	<string name="a_bezeichnung_auswahl_hint">Wählen sie eine Bezeichnung aus</string>
+	<string name="a_bezeichnung_hint">Bezeichnung eingeben</string>
+	<string name="a_bezeichnung_fehlt">Die Bezeichnung fehlt.</string>
+	<string name="a_artikel_liste_title">Gefundene Artikel</string>
+	<string name="a_hint_artikelname">Artikelname</string>
+	
+</resources>
